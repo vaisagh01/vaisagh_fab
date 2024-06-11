@@ -1,0 +1,26 @@
+.toast-container{
+    background: white;
+    padding: 8px 10px;
+    position: absolute;
+    bottom:79px;
+    right: 9px;
+    max-width: 500px;
+    font-weight: 600;
+    color: black;
+    border-radius: 7px;
+    box-shadow: 3px 3px 8px rgba(165, 165, 165, 0.529);
+}
+@media only screen and (max-width:600px) {
+    .toast-container{
+        max-width: 330px;
+    }
+}
+.toast-pointer{
+    background: white;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    rotate: 45deg;
+    right: 15px;
+    bottom: -6px;
+}
